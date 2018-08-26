@@ -1,0 +1,84 @@
+/*CSS reset*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*hamburger*/
+#hamburger {
+	position: fixed; 
+	top: 0; left:0;
+	bottom:0; 
+	padding: 10px;
+	background: #851514; 
+	height: 100%; 
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+    color: #FFFFFF; 
+}
+
+/*sidenav */
+.sidenav {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #851514;  
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#container-touchscreen {
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	background: #E5C9A5;
+    width: 622px;
+    height: 100%;
+    margin-left: 56px;
+}
+
+#model {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	border-style: solid;
+    border-width: 5px;
+	width: 681px;
+	margin-left: 676px;
+}
+
+
+
+
+
+
